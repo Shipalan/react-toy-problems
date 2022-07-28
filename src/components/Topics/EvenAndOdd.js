@@ -18,12 +18,12 @@ class EvenAndOdd extends React.Component {
   assignEvenandOdd(userInput) {
     let evens = [];
     let odds = [];
-    let arr = userInput.split("");
+    let arr = userInput.split(",");
 
     for (let i = 0; i < arr.length; i++) {
       if (arr[i] % 2 === 0) {
         evens.push(parseInt(arr[i], 10));
-      } else if (arr[i] % 2 !== 0 || arr[i] % 3 === 0) {
+      } else if (arr[i] % 2 !== 0 ){
         odds.push(parseInt(arr[i], 10));
       }
     }
