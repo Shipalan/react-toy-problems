@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class EvenAndOdd extends React.Component {
+class EvenAndOdd extends Component {
   constructor() {
     super();
 
